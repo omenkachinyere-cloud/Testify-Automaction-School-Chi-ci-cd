@@ -1,8 +1,7 @@
 // Initialize side lengths
 let side1 = 5;
-let side2 = 5;
+let side2 = 7;
 let side3 = 5;
-
 // Check triangle type
 if (side1 === side2 && side2 === side3) {
     console.log("Equilateral triangle");
