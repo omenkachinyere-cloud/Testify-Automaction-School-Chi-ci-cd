@@ -1,247 +1,314 @@
 
-// const Subject = 'JavaMyth'
-// console.log(Subject);
+// // const Subject = 'JavaMyth'
+// // console.log(Subject);
 
-// //Task 3
-// const dayOfTheWeek = 'Tuesday';
-// const position = 3;
-// const output = 'Today is ' + dayOfTheWeek  +'.'  + ' It is the ' + position + 'rd' + ' day of the week.';
-// console.log(output);
+// // //Task 3
+// // const dayOfTheWeek = 'Tuesday';
+// // const position = 3;
+// // const output = 'Today is ' + dayOfTheWeek  +'.'  + ' It is the ' + position + 'rd' + ' day of the week.';
+// // console.log(output);
 
-// const firstName = 'John';
-// const lastName = 'Friend';
-// const fullName = firstName + ' ' + lastName;
-// console.log(fullName);
+// // const firstName = 'John';
+// // const lastName = 'Friend';
+// // const fullName = firstName + ' ' + lastName;
+// // console.log(fullName);
 
-// //const age = 16;
-// //if (age >= 18) {
-//    // console.log('You are an adult and eligible to vote.');
-// //} else {
-// //    console.log('You are not an adult and not eligible to vote.');
-// //}
+// // //const age = 16;
+// // //if (age >= 18) {
+// //    // console.log('You are an adult and eligible to vote.');
+// // //} else {
+// // //    console.log('You are not an adult and not eligible to vote.');
+// // //}
 
-// // const age = 100;
-// // if (age>=25) {
-// //     console.log('You are eligible to rent a car.');
-// // } else if (age>=57) {
-// //     console.log('You are not eligible to rent a car.')
-// // }  else {
-// //     console.log('You are too young to rent a car.');
-// // }
+// // // const age = 100;
+// // // if (age>=25) {
+// // //     console.log('You are eligible to rent a car.');
+// // // } else if (age>=57) {
+// // //     console.log('You are not eligible to rent a car.')
+// // // }  else {
+// // //     console.log('You are too young to rent a car.');
+// // // }
 
-// const age = 59;
-// // if (age>=25 && age<=57) {
-// //     console.log('You are eligible to rent a car.');
-// // } else if (age>=57) {
-// //     console.log('You are not eligible to rent a car.')
-// // }  else {
-// //     console.log('You are too young to rent a car.');
-// // }
+// // const age = 59;
+// // // if (age>=25 && age<=57) {
+// // //     console.log('You are eligible to rent a car.');
+// // // } else if (age>=57) {
+// // //     console.log('You are not eligible to rent a car.')
+// // // }  else {
+// // //     console.log('You are too young to rent a car.');
+// // // }
 
-// const day = 'Monday';
-// // if (day === 'Thursday') {
-// //     console.log('Throwback Thursday');
-// // } else if (day === 'Monday') {
-// //     console.log('Monday again!!');
-// //     } else if (day === 'Saturday') {
+// // const day = 'Monday';
+// // // if (day === 'Thursday') {
+// // //     console.log('Throwback Thursday');
+// // // } else if (day === 'Monday') {
+// // //     console.log('Monday again!!');
+// // //     } else if (day === 'Saturday') {
+// // //         console.log('Happy Saturday!');
+// // //     } else {
+// // //         console.log('Just Go work for your money');
+// // //     }
+
+// // switch (day) { 
+// //     case 'Thursday':
+// //         console.log('Throwback Thursday');
+// //         break;
+// //     case 'Monday':
+// //         console.log('Monday again!!');
+// //         break;
+// //     case 'Saturday':
 // //         console.log('Happy Saturday!');
-// //     } else {
+// //         break;
+// //     default:
 // //         console.log('Just Go work for your money');
-// //     }
+// // }
 
-// switch (day) { 
-//     case 'Thursday':
-//         console.log('Throwback Thursday');
-//         break;
-//     case 'Monday':
-//         console.log('Monday again!!');
-//         break;
-//     case 'Saturday':
-//         console.log('Happy Saturday!');
-//         break;
-//     default:
-//         console.log('Just Go work for your money');
-// }
+// // // let star = 1;
+// // // while(star <=20000){
+// // //     if (star === 1) {
+// // //         console.log(star + ' star');
+// // //     } else {
+// // //     console.log(star + ' stars');
+// // //     }
+// // //     star = star + 1
+// // // }
 
-// // let star = 1;
-// // while(star <=20000){
+// // for (let star = 1; star <= 30; star = star + 1) {
 // //     if (star === 1) {
 // //         console.log(star + ' star');
+// //    } else {
+// // console.log(star + ' stars');
+// //     } //star = star + 1
+// // }
+
+// // for (let number =1; number <=51; number = number + 1) {
+// //     if (number % 2 === 0) {
+// //         console.log(number + ' is even');
 // //     } else {
-// //     console.log(star + ' stars');
+// //         console.log(number + ' is odd');
 // //     }
-// //     star = star + 1
 // // }
 
-// for (let star = 1; star <= 30; star = star + 1) {
-//     if (star === 1) {
-//         console.log(star + ' star');
-//    } else {
-// console.log(star + ' stars');
-//     } //star = star + 1
-// }
+// // // function MyOwn() { //function declaration
+// // //     console.log("This is my own function");
+// // // }
+// // // MyOwn(); //function call
 
-// for (let number =1; number <=51; number = number + 1) {
-//     if (number % 2 === 0) {
-//         console.log(number + ' is even');
-//     } else {
-//         console.log(number + ' is odd');
-//     }
-// }
+// // // function Greetings(name) {
+// // //     console.log("Hello, " + name + "!");
+// // // }
+// // // Greetings("Amarachi");
 
-// // function MyOwn() { //function declaration
-// //     console.log("This is my own function");
+// // function calculateArea(radius) {
+// //     const area = Math.PI * radius * radius;
+// //     return area;
 // // }
-// // MyOwn(); //function call
+// // const radius = 5;
+// // const area = calculateArea(radius);
+// // console.log("The area of the circle with radius " + radius + " is: " + area);
+// // calculateArea(10);
 
-// // function Greetings(name) {
-// //     console.log("Hello, " + name + "!");
+// // function addNumbers(firstNumber, secondNumber) {
+// //     const sum = firstNumber + secondNumber;
+// //     console.log (sum);
 // // }
-// // Greetings("Amarachi");
+// // addNumbers(81, 914 );
 
-// function calculateArea(radius) {
-//     const area = Math.PI * radius * radius;
-//     return area;
-// }
-// const radius = 5;
-// const area = calculateArea(radius);
-// console.log("The area of the circle with radius " + radius + " is: " + area);
-// calculateArea(10);
-
-// function addNumbers(firstNumber, secondNumber) {
-//     const sum = firstNumber + secondNumber;
-//     console.log (sum);
-// }
-// addNumbers(81, 914 );
-
-// function calculateAreaOfRectangle(length, width) {
-//     const area = length * width;
-//     console.log("The area of the rectangle with length " + length + " and width " + width + " is: " + area);
-// }
-// calculateAreaOfRectangle(5.2, 10.9);
-
-// function converter(dollars) {
-//     //conversion ratefrom dollars to naira is 1415
-//     const nairaValue = dollars * 1415;
-//     return nairaValue;
-// }
-// const nairaValue = converter(310);
-// console.log(nairaValue);
-
-// // const myBaby = 'Lulu'; // global variable
-
-// // function greetings(){
-// //     console.log("Hello, " + myBaby);
-// //     function beninGreetings(){
-// //         console.log("Obowa, " + myBaby);
-// //     }
-// //     beninGreetings();
+// // function calculateAreaOfRectangle(length, width) {
+// //     const area = length * width;
+// //     console.log("The area of the rectangle with length " + length + " and width " + width + " is: " + area);
 // // }
-// // greetings();
+// // calculateAreaOfRectangle(5.2, 10.9);
 
-//  // global variable
-
-// // function greetings(){
-// //     const myBaby = 'Ilulu';
-// //     console.log("Hello, " + myBaby);
+// // function converter(dollars) {
+// //     //conversion ratefrom dollars to naira is 1415
+// //     const nairaValue = dollars * 1415;
+// //     return nairaValue;
 // // }
-// //     function beninGreetings(){
-// //         console.log("Obowa, " + myBaby);
-// //     }
-// //     beninGreetings();
+// // const nairaValue = converter(310);
+// // console.log(nairaValue);
 
-// //     console.log(myBaby); //accessing the variable declared in the parent function
-// // greetings();
+// // // const myBaby = 'Lulu'; // global variable
 
-// sing("Jesus You Love Me Too Much");
-// function sing(MercyChinwo) {
-//     console.log("I will sing " + MercyChinwo + " all day long!");
-// }
+// // // function greetings(){
+// // //     console.log("Hello, " + myBaby);
+// // //     function beninGreetings(){
+// // //         console.log("Obowa, " + myBaby);
+// // //     }
+// // //     beninGreetings();
+// // // }
+// // // greetings();
 
-// const mysong = function (song) {
-//     console.log("I will sing " + song + " while alive!");
-// };
-// mysong("Oshimiri Atata");
+// //  // global variable
 
-// const myArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-// console.log(myArray);
+// // // function greetings(){
+// // //     const myBaby = 'Ilulu';
+// // //     console.log("Hello, " + myBaby);
+// // // }
+// // //     function beninGreetings(){
+// // //         console.log("Obowa, " + myBaby);
+// // //     }
+// // //     beninGreetings();
 
-// const numberArray = [100, 85, 70, 55, 40, 25, 10];
-// console.log(numberArray);
+// // //     console.log(myBaby); //accessing the variable declared in the parent function
+// // // greetings();
 
-// const emptyArray = [];
-// console.log(emptyArray.length);
+// // sing("Jesus You Love Me Too Much");
+// // function sing(MercyChinwo) {
+// //     console.log("I will sing " + MercyChinwo + " all day long!");
+// // }
 
-// const myArray2 = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-// const seventhElement = myArray2[12];
-// myArray2[6] = 'NewMonth';
-// console.log(myArray2);
+// // const mysong = function (song) {
+// //     console.log("I will sing " + song + " while alive!");
+// // };
+// // mysong("Oshimiri Atata");
 
-// const emptyArray2 = [];
-// emptyArray2[0] = 'First Element';
-// emptyArray2[1] = 'Second Element';
-// emptyArray2[6] = 'Seventh Element';
-// console.log(emptyArray2.length);
+// // const myArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// // console.log(myArray);
 
-// const emptyArray = [];
-// emptyArray[0] = 'First Love';
-// console.log(emptyArray)
+// // const numberArray = [100, 85, 70, 55, 40, 25, 10];
+// // console.log(numberArray);
 
-// const notemptyArray = [];
-// notemptyArray.push('First Man, God created Adam, he ate an apply according to the Bible');
-// notemptyArray.push('Second Man, God created Eve, she was made from Adam\'s rib according to the Bible');
-// console.log(notemptyArray);
+// // const emptyArray = [];
+// // console.log(emptyArray.length);
 
-// const notemptyArray = ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second'];
-// for (let start = 0; start <=notemptyArray.length; start+1) {
-//     notemptyArray.pop()
-// }
-// console.log(notemptyArray);
+// // const myArray2 = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// // const seventhElement = myArray2[12];
+// // myArray2[6] = 'NewMonth';
+// // console.log(myArray2);
 
-// const companyArray = ['Telco A', 'Banking B', 'Fintech C', 'Healthcare D', 'Education E', 'Entertainment F', 'Agriculture G', 'Logistics H', 'Manufacturing I', 'Real Estate J'];
-// companyArray.unshift ('Energy K');
-// console.log(companyArray);
+// // const emptyArray2 = [];
+// // emptyArray2[0] = 'First Element';
+// // emptyArray2[1] = 'Second Element';
+// // emptyArray2[6] = 'Seventh Element';
+// // console.log(emptyArray2.length);
 
-// const companyArray = ['Telco A', 'Banking B', 'Fintech C', 'Healthcare D', 'Education E', 'Entertainment F', 'Agriculture G', 'Logistics H', 'Manufacturing I', 'Real Estate J'];
-// companyArray.shift ();
-// companyArray.shift ();
+// // const emptyArray = [];
+// // emptyArray[0] = 'First Love';
+// // console.log(emptyArray)
+
+// // const notemptyArray = [];
+// // notemptyArray.push('First Man, God created Adam, he ate an apply according to the Bible');
+// // notemptyArray.push('Second Man, God created Eve, she was made from Adam\'s rib according to the Bible');
+// // console.log(notemptyArray);
+
+// // const notemptyArray = ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second'];
+// // for (let start = 0; start <=notemptyArray.length; start+1) {
+// //     notemptyArray.pop()
+// // }
+// // console.log(notemptyArray);
+
+// // const companyArray = ['Telco A', 'Banking B', 'Fintech C', 'Healthcare D', 'Education E', 'Entertainment F', 'Agriculture G', 'Logistics H', 'Manufacturing I', 'Real Estate J'];
+// // companyArray.unshift ('Energy K');
 // // console.log(companyArray);
 
-// const companyArray = ['Telco A', 'Banking B', 'Fintech C', 'Healthcare D', 'Education E', 'Entertainment F', 'Agriculture G', 'Logistics H', 'Manufacturing I', 'Real Estate J'];
-// companyArray.slice (3,7);
-// console.log(companyArray.slice (3,7));
-// console.log(companyArray);
+// // const companyArray = ['Telco A', 'Banking B', 'Fintech C', 'Healthcare D', 'Education E', 'Entertainment F', 'Agriculture G', 'Logistics H', 'Manufacturing I', 'Real Estate J'];
+// // companyArray.shift ();
+// // companyArray.shift ();
+// // // console.log(companyArray);
 
-// const monthArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'March', 'August', 'September', 'October', 'November', 'December'];
-// //monthArray.splice (8,3);
-// //console.log(monthArray.slice (3,7));
-//remove January till March
-//console.log(monthArray, monthArray.splice (4,2,));
-// console.log(monthArray.indexOf('September'));
-// console.log(monthArray.indexOf('March'));
-// console.log(monthArray.lastIndexOf('March'));
+// // const companyArray = ['Telco A', 'Banking B', 'Fintech C', 'Healthcare D', 'Education E', 'Entertainment F', 'Agriculture G', 'Logistics H', 'Manufacturing I', 'Real Estate J'];
+// // companyArray.slice (3,7);
+// // console.log(companyArray.slice (3,7));
+// // console.log(companyArray);
 
-const myDesire = {
-    name:'Prado Jeep',
-    color:'Emerald Green',
-    price: 150000000,
-    year: 2026,
-}
+// // const monthArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'March', 'August', 'September', 'October', 'November', 'December'];
+// // //monthArray.splice (8,3);
+// // //console.log(monthArray.slice (3,7));
+// //remove January till March
+// //console.log(monthArray, monthArray.splice (4,2,));
+// // console.log(monthArray.indexOf('September'));
+// // console.log(monthArray.indexOf('March'));
+// // console.log(monthArray.lastIndexOf('March'));
 
-const brand = {
-    isToyota: true,
-    tyre:'dunlop',
-    seater: 8,
-    reverseCamera: true,
-    toggleToyota: function() {
-        if (brand.isToyota === true) {
-            brand.isToyota = false;
-        } else {
-            brand.isToyota = true;
-        }
-    }
-};
+// const myDesire = {
+//     name:'Prado Jeep',
+//     color:'Emerald Green',
+//     price: 150000000,
+//     year: 2026,
+// }
 
-console.log(myDesire.name);
-brand.toggleToyota();
-console.log(brand['isToyota']);
+// const brand = {
+//     isToyota: true,
+//     tyre:'dunlop',
+//     seater: 8,
+//     reverseCamera: true,
+//     toggleToyota: function() {
+//         if (brand.isToyota === true) {
+//             brand.isToyota = false;
+//         } else {
+//             brand.isToyota = true;
+//         }
+//     }
+// };
+
+// console.log(myDesire.name);
+// brand.toggleToyota();
+// console.log(brand['isToyota']);
+
+// const someone = {
+//     name: 'Chinyere',
+//     age: 30,
+//     occupation: 'Software Engineer',
+//     isMarried: false,
+//     siblings: [{
+// name: 'Judah',
+// age: 27,
+// occupation: 'Data Analyst',
+// isMarried: false,
+//     },
+// {name: 'Chinonso',
+// age: 32,
+// occupation: 'Graphic Designer',
+// isMarried: true,
+// },
+// {
+// name: 'Chidimma',
+// age: 21,
+// occupation: 'Content Creator',
+// isMarried: false,
+// }],
+//     addSibling: function(name) { 
+//         someone.siblings.push(name);
+    
+//     }}
+//     someone.addSibling({
+//         name: 'Chinyere Jr',
+//         age: 0,
+//         occupation: 'sleeping and eating',
+//         isMarried: false,
+//     });
+//     //someone.eyecolour = 'Grey';
+//     console.log(someone);
+
+//        //toggleMaritalStatus: function() }
+
+// Create the books array
+let books = [
+  {
+    title: "The Great Gatsby",
+    description: "A novel about the American dream and tragic love.",
+    numberOfPages: 180,
+    author: "F. Scott Fitzgerald",
+    reading: true
+  },
+  {
+    title: "1984",
+    description: "A dystopian novel about surveillance and totalitarianism.",
+    numberOfPages: 328,
+    author: "George Orwell",
+    reading: false
+  },
+  {
+    title: "To Kill a Mockingbird",
+    description: "A story of racial injustice and childhood in the Deep South.",
+    numberOfPages: 281,
+    author: "Harper Lee",
+    reading: true
+  }
+];
+
+// Modern approach: filter + forEach
+books
+  .filter(book => book.reading)   // keep only books with reading = true
+  .forEach(book => console.log(book));
