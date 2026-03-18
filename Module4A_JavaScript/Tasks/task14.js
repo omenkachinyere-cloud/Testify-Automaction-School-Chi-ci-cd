@@ -13,3 +13,6 @@ const objects = {
 }}
 objects.togglereading();
 console.log(objects.reading);
+
+
+ 
