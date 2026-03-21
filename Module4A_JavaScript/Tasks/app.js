@@ -330,6 +330,4 @@ function printMultiplicationTables(upToTable, upToMultiplier) {
     console.log(row);
   }
 }
-// Example: tables from 1 to 10, each up to 12
-printMultiplicationTables(10, 12);
 
