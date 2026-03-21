@@ -1,0 +1,20 @@
+{
+  "name": "testifychi",
+  "version": "1.0.0",
+  "description": "learning nodejs",
+  "homepage": "https://github.com/omenkachinyere-cloud/Testify-Automaction-School-Chi-ci-cd#readme",
+  "bugs": {
+    "url": "https://github.com/omenkachinyere-cloud/Testify-Automaction-School-Chi-ci-cd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omenkachinyere-cloud/Testify-Automaction-School-Chi-ci-cd.git"
+  },
+  "license": "ISC",
+  "author": "Chinyere",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
